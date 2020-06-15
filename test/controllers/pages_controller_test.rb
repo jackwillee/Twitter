@@ -19,4 +19,9 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "about"
   end
 
+  test "should get root" do
+    get '/'
+    assert_response :success
+  end
+
 end

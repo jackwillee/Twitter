@@ -22,3 +22,36 @@ text-align: center;
     float: left;
     margin-left: 15px;
   }
+  .navbar {
+    min-height: 40px;
+  }
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 10.5px;
+      padding-bottom: 10.5px;
+      line-height: 10px;
+    }
+  }
+
+ 
+  h1.signup {
+
+    padding: 180px;
+    align-content: center;
+    text-align: center;
+    height: 10px;
+  }
